@@ -1,0 +1,10 @@
+@media print{
+
+  #printDiv {
+      display:none;
+    }
+}
+  
+  body {
+    background: #edfffe;
+  }

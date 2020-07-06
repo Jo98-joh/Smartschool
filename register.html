@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title> Register</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+  <div class="jumbotron">
+    <form id="account-register" action="auth" name="myform" method="POST">
+      <div class="card-body">
+        <div class="main">
+          <div class="container-fluid">
+            <h2>Create Account</h2>
+            <div class="row">
+              <div class="col-sm-4">
+                <label for="">School Code</label>
+                <input type="text" class="form-control" name="school_code" id="school_code">
+              </div>
+              <div class="col-sm-4">
+                <label for="">School Name</label>
+                <input type="text" class="form-control" name="school_name" id="school_name">
+              </div>
+              <div class="col-sm-4">
+                <label for="">School Prefix</label>
+                <input type="text" class="form-control" name="school_prefix" id="school_prefix">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <label for="">Main Phone Number</label>
+                <input type="text" class="form-control" name="phone_main" id="phone_main">
+              </div>
+              <div class="col-sm-6">
+                <label for="">Extra Phone Number</label>
+                <input type="text" class="form-control" name="phone_extra" id="phone_extra">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <label for="">Email</label>
+                <input type="text" class="form-control" name="email" id="email">
+              </div>
+              <div class="col-sm-4">
+                <label for="">Region</label>
+                <input type="text" class="form-control" name="region" id="region">
+              </div>
+              <div class="col-sm-4">
+                <label for="">Town/City</label>
+                <input type="text" class="form-control" name="town" id="town">
+              </div>
+            </div>
+            <button type="reset" value="Reset All" class=" btn btn-light mt-2" name="reset" id="reset"
+            form="account-register" >Reset</button>
+          <button type="submit" value="Submit " class=" btn btn-success mt-2" name="submit" id="submit"
+            form="account-register">Submit</button>
+            <div class="text-center">
+              <a class="small" href="forgot-password.html">Forgot Password?</a>
+            </div>
+            <div class="text-center">
+              <a class="small" href="login.html">Already have an account? Login!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+   </div>
+    
+    <script>
+      if (typeof module === 'object') {
+        window.module = module;
+        module = undefined;
+      }
+    </script>
+  
+    <!-- Bootstrap core JavaScript-->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+    <!-- Core plugin JavaScript-->
+    <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+  
+    <!-- Custom scripts for all pages-->
+    <script src="assets/js/sb-admin-2.min.js"></script>
+    <script src="register.js"></script>
+    <script>
+      if (window.module) module = window.module;
+    </script>
+  
+  </body>
+  
+  </html>
+    
+ 
+ 
+
+   
+  
+  
